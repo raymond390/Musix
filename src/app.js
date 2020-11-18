@@ -20,4 +20,4 @@ if (process.argv[2] === '--debug') {
   client.on(appEvents.debug, appHandlers.handleDebug);
 }
 
-client.login(process.env.token);
+client.login(discord_token);
